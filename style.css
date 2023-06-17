@@ -1,0 +1,75 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header, nav, main, footer {
+  padding: 20px;
+}
+
+header, footer {
+  background-color: #333;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #333; /* Add this line to set the text color */
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .container {
+    padding: 10px;
+  }
+
+  header, footer {
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    margin: 5px;
+  }
+}

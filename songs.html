@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Band - Songs</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url("bg_sky3.png");
+            background-position: center center; /* Center the background image */
+            background-size: cover; /* Adjust the background image to cover the entire screen */
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }    
+        .song-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+    
+        .song-info {
+            flex: 1;
+        }
+    
+        .song-info-left {
+            order: 1;
+            text-align: left;
+            margin-right: 20px;
+        }
+    
+        .song-info-right {
+            order: 2;
+            text-align: right;
+            margin-left: 20px;
+        }
+    
+        .song-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    
+        .song-artist {
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+    
+        .song-album {
+            margin-bottom: 5px;
+        }
+        .song-cover { 
+            width: 40%; 
+            height: 40%;
+        }
+    
+        .song-cover-left {
+            order: 1;
+            margin-right: 20px;
+        }
+    
+        .song-cover-right {
+            order: 2;
+            margin-left: 20px;
+        }
+    
+        footer {
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        @media (min-width: 768px) {
+            .song-container {
+                padding: 0 50px;
+            }
+    
+            .song-info-left {
+                padding-right: 50px;
+            }
+    
+            .song-info-right {
+                padding-left: 50px;
+            }
+    
+            .song-cover-left {
+                margin-right: 0;
+                margin-left: auto;
+            }
+    
+            .song-cover-right {
+                margin-left: 0;
+                margin-right: auto;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="band.html">Band</a></li>
+                <li><a href="songs.html">Songs</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="section">
+            <h2>Song List:</h2>
+            <div class="song-container">
+              <div class="song-info song-info-left">
+                <h2 class="song-title">7 - 1 </h2>
+                <p class="song-artist">Jupiter, Stellar, Electra</p>
+                <p class="song-album">Synth</p>
+              </div>
+              <div class="song-cover song-cover-left">
+                <img src="album_5.png" alt="Album 1 Cover" width=100% height=100%>
+              </div>
+            </div>
+          
+            <div class="song-container">
+              <div class="song-info song-info-right">
+                <h3 class="song-title">Proletariat without Cheese </h3>
+                <p class="song-artist">Meteor, Stellar, Electra</p>
+                <p class="song-album">Pop-Punk</p>
+              </div>
+              <div class="song-cover song-cover-left">
+                <img src="album_2.png" alt="Album 2 Cover" width=100% height=100%>
+              </div>
+            </div>
+          
+            <div class="song-container">
+              <div class="song-info song-info-left">
+                <h3 class="song-title">James - Catch This! </h3>
+                <p class="song-artist">Jupiter, Stellar</p>
+                <p class="song-album">Dystopian</p>
+              </div>
+              <div class="song-cover song-cover-right">
+                <img src="album_8.png" alt="Album 3 Cover" width=100% height=100%>
+              </div>
+            </div>
+            <div class="song-container">
+              <div class="song-info song-info-right">
+                <h3 class="song-title">Run</h3>
+                <p class="song-artist">Electra, Meteor, Stellar, Jupiter</p>
+                <p class="song-album">Sci-Fi</p>
+              </div>
+              <div class="song-cover song-cover-left">
+                <img src="album_1.png" alt="Album 4 Cover" width=100% height=100%>
+              </div>
+            </div>
+          
+            <div class="song-container">
+              <div class="song-info song-info-left">
+                <h3 class="song-title">I Wonder</h3>
+                <p class="song-artist">Jupiter, Stellar, Meteor, Electra</p>
+                <p class="song-album">Jazz-Punk</p>
+              </div>
+              <div class="song-cover song-cover-right">
+                <img src="album_7.png" alt="Album 5 Cover" width=100% height=100%>
+              </div>
+            </div>
+          
+            <!-- Add more song containers as needed -->
+          
+          </div>
+          
+          
+    </main>
+    <footer>
+        <h3>Terms and Conditions Privacy Policy Contact</h3>
+    </footer>
+</body>
+</html>
