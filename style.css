@@ -31,7 +31,7 @@ header, footer {
 footer {
   text-align: center;
   padding: 20px;
-  color: #333; /* Add this line to set the text color */
+  color: #333; 
 }
 
 nav {
@@ -54,9 +54,7 @@ nav a {
   padding: 10px;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
-  /* Adjustments for smaller screens */
   .container {
     padding: 10px;
   }
